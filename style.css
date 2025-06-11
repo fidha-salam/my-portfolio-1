@@ -1,0 +1,121 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffffff ;
+    color: #333 ;
+    box-sizing: content-box;
+}
+header {
+    text-align: center;
+    /*background: linear-gradient(to bottom, #ffffff, #f6aeae);
+    border-radius: 12px;*/
+}
+h1 {
+    font-family: 'Ribeye', cursive;
+    color: #d67c7c;
+}
+nav {
+    background-color: #f6aeae ;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    margin: 0 0;
+    position: fixed;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff ;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover{
+        color: #ffd3d3   ;
+}
+section {
+    width: auto;
+    margin: 0 0;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    scroll-snap-type: mandatory;
+}
+section {
+    min-height: 100vh;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+section h2{
+    color:#f6aeae
+
+}
+.project-card {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-left: 4px solid #d67c7c;
+    border-radius: 8px;
+}
+#landing {
+    background: linear-gradient(to bottom, #ffffff9d, #f6aeae);
+    box-shadow: 0 4px 20px rgb(255, 255, 255);
+    height: 300px;
+}
+#about-me {
+    background-color: #ffffff;
+    /*box-shadow: 0 4px 20px rgba(255, 255, 255, 0.233);*/
+}
+#my-work {
+    background-color: #f8cacf;
+  }
+  
+  #contact-me {
+    background-color: #d67c7c;
+    align-items: center;
+    h2 {
+        color: #fff;
+    }
+    color: #fff;
+    height: 50px;
+  }
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    section {
+      padding: 40px 15px;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  }
+
+  
+
+  .project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .project-link:hover .project-card {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
