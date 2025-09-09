@@ -10,8 +10,10 @@ body {
 }
 header {
     text-align: center;
-    /*background: linear-gradient(to bottom, #ffffff, #f6aeae);
-    border-radius: 12px;*/
+}
+#about-me p {
+    margin: 20px 0px;
+    gap: 10px;
 }
 h1 {
     font-family: 'Ribeye', cursive;
@@ -88,7 +90,9 @@ section h2{
 }
 #my-work {
     background-color: #f8cacf;
-    color: white;
+    h2 {
+        color: #fff;
+    }
   }
   
   
@@ -143,4 +147,5 @@ section h2{
   .contact-links li a:hover {
     background-color: #f18585;
   }  
+
 
