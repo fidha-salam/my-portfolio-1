@@ -88,6 +88,7 @@ section h2{
 }
 #my-work {
     background-color: #f8cacf;
+    color: white;
   }
   
   
@@ -142,3 +143,4 @@ section h2{
   .contact-links li a:hover {
     background-color: #f18585;
   }  
+
